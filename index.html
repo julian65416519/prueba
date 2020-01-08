@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Hind+Vadodara:600&display=swap" rel="stylesheet" <!-- syles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- JavaScript -->
+    <script src="js/sidenav.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Font awesome -->
+    <script src="js/kitfontawesome.js"></script>
+    <title>Prueba Front</title>
+</head>
+<body>
+    <!-- SIDENAV -->
+    <section id="main">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+          <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <h1>My <img src="assets/icons/emoji.png" class="emoji"><br>Order</h1>
+                        <div class="side-cuadrado">
+                            <p class="side-text">625 St Marks Ave</p><br>
+                            <p class="side-text2">Edit</p>
+                            <div class="side-mincuadrado">
+                                <img src="assets/icons/149316.svg" class="side-icono">
+                                <p class="text-icon">35 min</p>
+                            </div>
+                            <p class="side-text3">Choose time</p>
+                        </div>
+                    </div>
+
+
+            </div> 
+            <div>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                         <i class="fas fa-grip-lines"></i>&nbsp;&nbsp;&nbsp; Chukwudi</span>
+                         <input type="text" id ="shear" placeholder="Search">
+            </div>
+            </ul>
+            </div>
+        </nav>
+
+        <!-- CAPAS -->
+        <div id="capa1">
+            <div class="polig"></div>
+        </div>
+        <div id="capa2">
+            <img class="imaggen" src="assets/images/headerimage.png">
+        </div>
+        <div id="capa3">
+            <p class="text">$0 delivery for 30 days! <img class="icono" src="assets/images/d.png"></p>
+            <br>
+            <p class="mintext">$0 delivery fee forover $10 for 30 days</p>
+        </div>
+
+        <div>
+            <a class="link link--arrowed" href="#">Learn more
+          <svg class="arrow-icon"  width="32" height="32" viewBox="0 0 32 32">
+            <g fill="none" stroke="#ff6223" stroke-width="1.5" stroke-linejoin="round" stroke-miterlimit="10">
+              <circle class="arrow-icon--circle" cx="16" cy="16"s r="15.12"></circle>
+              <path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+            </g>
+          </svg> 
+        </a>
+        </div>
+
+        <section>
+            <div>
+                <p class="textt">Restaurants <img src="assets/icons/1046784.svg" class="hamburger"></p>
+                <button class="button" style="vertical-align:middle">
+                <i class="far fa-clock"></i><span>&nbsp&nbsp Delivery: <b>Now</b> </span></button>
+            </div>
+        </section>
+        <section>
+            <ul id="lista1">
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/149220.svg" class="image">
+                            <p class="titulo">All</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/701965.svg" class="image">
+                            <p class="titulo">Gourmet</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/599995.svg" class="image">
+                            <p class="titulo">Pizza</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/1900683.svg" class="image">
+                            <p class="titulo">Asian</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/883806.svg" class="image">
+                            <p class="titulo">Burgers</p>
+                        </div>  
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/933310.svg" class="image">
+                            <p class="titulo">Barbecue</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/174394.svg" class="image">
+                            <p class="titulo">Dessers</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="cuadrado">
+                        <div class="circle"><img src="assets/icons/135367.svg" class="image">
+                            <p class="titulo">Thai</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a class="next round"><i class="fas fa-chevron-right"></i></a>
+        </section>
+        <br><br>
+        <section>
+            <ul id="lista1">
+                <li>
+                    <div>
+                        <div class="container">
+                            <img src="assets/images/pexels-photo-156114.jpeg" alt="Avatar" class="alimento">
+                            <div class="overlay">
+                                <div class="duracion">25-30 min</div>
+                            </div>
+                        </div>
+                        <h2>Gourmet Burger</h2>
+                        <p class="sub"><i class="far fa-star"></i>&nbsp4.7 Deli - Bagels - $$</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="container">
+                            <img src="assets/images/salmon-dish-food-meal-46239.jpeg" alt="Avatar" class="alimento">
+                            <div class="overlay">
+                                <div class="duracion">30 - 35 minuts</div>
+                            </div>
+                        </div>
+                        <h2>Salmon Gourmet</h2>
+                        <p class="sub"><i class="far fa-star"></i>&nbsp4.5 Deli - Creperies - $$</p>
+
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <div class="container">
+                            <img src="assets/images/pexels-photo-675951.jpeg" alt="Avatar" class="alimento">
+                            <div class="overlay">
+                                <div class="duracion">40 - 60 minutos</div>
+                            </div>
+                        </div>
+                        <h2>Baseria la Flama</h2>
+                        <p class="sub"><i class="far fa-star"></i>&nbsp4.7 Deli - Bagels - $$</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+</body>
+<!-- sidenav -->
+<script src="js/sidenav.js"></script>
+<script src="js/loadcat.js"></script>
+<script src="js/jquery-2.2.3.min.js"></script>
+</html
